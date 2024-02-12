@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="최소값, 최대값">
-      <change afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="섞기">
+      <change beforePath="$PROJECT_DIR$/src/just/Start4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,7 @@
       <workItem from="1707639664881" duration="4713000" />
       <workItem from="1707797634284" duration="6252000" />
       <workItem from="1707806887726" duration="4184000" />
-      <workItem from="1707895750634" duration="1564000" />
+      <workItem from="1707895750634" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -235,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707896116572</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="섞기">
+      <option name="closed" value="true" />
+      <created>1707897497649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707897497649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +255,7 @@
     <MESSAGE value="프로그래머스" />
     <MESSAGE value="자바의 정석 복습" />
     <MESSAGE value="최소값, 최대값" />
-    <option name="LAST_COMMIT_MESSAGE" value="최소값, 최대값" />
+    <MESSAGE value="섞기" />
+    <option name="LAST_COMMIT_MESSAGE" value="섞기" />
   </component>
 </project>
