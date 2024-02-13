@@ -1,3 +1,5 @@
+package just;
+
 public class Start5 {
     static int share;
 

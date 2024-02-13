@@ -1,3 +1,5 @@
+package just;
+
 public class Start6 extends Thread {
     static int share;
 
