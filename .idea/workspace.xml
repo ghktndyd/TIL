@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="백준">
-      <change afterPath="$PROJECT_DIR$/src/programmers/n번째원소까지.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/just/Start6.java" afterDir="false" />
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="패키지 이동">
+      <change afterPath="$PROJECT_DIR$/src/programmers/문자열을정수로.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -27,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ghktndyd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a989f880-80f9-4a49-812e-e92466a9601c" />
+        <option name="url" value="git@github.com:ghktndyd/everything.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +92,7 @@
       <workItem from="1707638834010" duration="4000" />
       <workItem from="1707639185594" duration="474000" />
       <workItem from="1707639664881" duration="4713000" />
-      <workItem from="1707797634284" duration="3032000" />
+      <workItem from="1707797634284" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -109,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707798783477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="프로그래머스">
+      <option name="closed" value="true" />
+      <created>1707800719572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707800719572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="패키지 이동">
+      <option name="closed" value="true" />
+      <created>1707800928570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707800928570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +144,8 @@
     <MESSAGE value="두번째" />
     <MESSAGE value="멀티 스레드" />
     <MESSAGE value="백준" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준" />
+    <MESSAGE value="프로그래머스" />
+    <MESSAGE value="패키지 이동" />
+    <option name="LAST_COMMIT_MESSAGE" value="패키지 이동" />
   </component>
 </project>
