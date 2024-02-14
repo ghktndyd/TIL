@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="자바의 정석 복습">
-      <change afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexam/ArrayEx5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx5.java" afterDir="false" />
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="최소값, 최대값">
+      <change afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaexam/ArrayEx8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,9 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.ArrayCopy.executor": "Run",
     "애플리케이션.ArrayEx5.executor": "Run",
+    "애플리케이션.ArrayEx6.executor": "Run",
+    "애플리케이션.ArrayEx7.executor": "Debug",
+    "애플리케이션.ArrayEx8.executor": "Debug",
     "애플리케이션.P11659.executor": "Run",
     "애플리케이션.Start6.executor": "Run",
     "애플리케이션.n번째원소까지.executor": "Run"
@@ -83,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayEx6">
+  <component name="RunManager" selected="애플리케이션.ArrayEx8">
     <configuration name="ArrayEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaexam.ArrayEx5" />
       <module name="everything" />
@@ -110,8 +114,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayEx7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.ArrayEx7" />
+      <module name="everything" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayEx8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.ArrayEx8" />
+      <module name="everything" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayEx8" />
+        <item itemvalue="애플리케이션.ArrayEx7" />
         <item itemvalue="애플리케이션.ArrayEx6" />
         <item itemvalue="애플리케이션.ArrayEx5" />
       </list>
@@ -137,7 +169,7 @@
       <workItem from="1707639664881" duration="4713000" />
       <workItem from="1707797634284" duration="6252000" />
       <workItem from="1707806887726" duration="4184000" />
-      <workItem from="1707895750634" duration="334000" />
+      <workItem from="1707895750634" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -195,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707895933603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="최소값, 최대값">
+      <option name="closed" value="true" />
+      <created>1707896116572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707896116572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +248,7 @@
     <MESSAGE value="패키지 이동" />
     <MESSAGE value="프로그래머스" />
     <MESSAGE value="자바의 정석 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바의 정석 복습" />
+    <MESSAGE value="최소값, 최대값" />
+    <option name="LAST_COMMIT_MESSAGE" value="최소값, 최대값" />
   </component>
 </project>
