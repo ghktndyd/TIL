@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="getMessage()와 printStackTrace() 차이">
-      <change afterPath="$PROJECT_DIR$/src/javaexam/ExceptionEx12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaexam/FinallyTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaexam/NexExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="Exception" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,9 +94,9 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.FinallyTest3">
-    <configuration name="DeckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.DeckTest" />
+  <component name="RunManager" selected="애플리케이션.EqualsEx2">
+    <configuration name="EqualsEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.EqualsEx2" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.EqualsEx2" />
         <item itemvalue="애플리케이션.FinallyTest3" />
         <item itemvalue="애플리케이션.ExceptionEx12" />
         <item itemvalue="애플리케이션.ExceptionEx9" />
         <item itemvalue="애플리케이션.SuperTest" />
-        <item itemvalue="애플리케이션.DeckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +191,7 @@
       <workItem from="1707797634284" duration="6252000" />
       <workItem from="1707806887726" duration="4184000" />
       <workItem from="1707895750634" duration="3463000" />
-      <workItem from="1707977027915" duration="7369000" />
+      <workItem from="1707977027915" duration="7858000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -310,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708057367561</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Exception">
+      <option name="closed" value="true" />
+      <created>1708058691985</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708058691985</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +333,8 @@
     <MESSAGE value="CallByXXX" />
     <MESSAGE value="클래스 구성과 super 키워드" />
     <MESSAGE value="getMessage()와 printStackTrace() 차이" />
-    <option name="LAST_COMMIT_MESSAGE" value="getMessage()와 printStackTrace() 차이" />
+    <MESSAGE value="Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
