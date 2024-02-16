@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="Exception" />
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="java.lang 패키지의 equals">
+      <change afterPath="$PROJECT_DIR$/src/javaexam/DateFormatEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaexam/DateFormatEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaexam/ObjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaexam/RegularEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaexam/StringBufferEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -66,7 +76,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.ArrayCopy.executor": "Run",
     "애플리케이션.ArrayEx10.executor": "Run",
@@ -77,14 +87,20 @@
     "애플리케이션.ArrayEx9.executor": "Run",
     "애플리케이션.CallByReference.executor": "Run",
     "애플리케이션.CallByValue.executor": "Run",
+    "애플리케이션.DateFormatEx2.executor": "Run",
+    "애플리케이션.DateFormatEx3.executor": "Run",
     "애플리케이션.DeckTest.executor": "Run",
+    "애플리케이션.EqualsEx2.executor": "Run",
     "애플리케이션.ExceptionEx12.executor": "Debug",
     "애플리케이션.ExceptionEx9.executor": "Run",
     "애플리케이션.FinallyTest3.executor": "Run",
     "애플리케이션.MouseDriver.executor": "Run",
     "애플리케이션.MultiArrEx1.executor": "Debug",
+    "애플리케이션.ObjectsTest.executor": "Run",
     "애플리케이션.P11659.executor": "Run",
+    "애플리케이션.RegularEx1.executor": "Run",
     "애플리케이션.Start6.executor": "Run",
+    "애플리케이션.StringBufferEx1.executor": "Run",
     "애플리케이션.SuperTest.executor": "Run",
     "애플리케이션.n번째원소까지.executor": "Run"
   }
@@ -94,9 +110,9 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.EqualsEx2">
-    <configuration name="EqualsEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.EqualsEx2" />
+  <component name="RunManager" selected="애플리케이션.DateFormatEx3">
+    <configuration name="DateFormatEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.DateFormatEx2" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.ExceptionEx12" />
+    <configuration name="DateFormatEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.DateFormatEx3" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionEx9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.ExceptionEx9" />
+    <configuration name="ObjectsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.ObjectsTest" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.FinallyTest3" />
+    <configuration name="RegularEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.RegularEx1" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.SuperTest" />
+    <configuration name="StringBufferEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.StringBufferEx1" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.EqualsEx2" />
-        <item itemvalue="애플리케이션.FinallyTest3" />
-        <item itemvalue="애플리케이션.ExceptionEx12" />
-        <item itemvalue="애플리케이션.ExceptionEx9" />
-        <item itemvalue="애플리케이션.SuperTest" />
+        <item itemvalue="애플리케이션.DateFormatEx3" />
+        <item itemvalue="애플리케이션.DateFormatEx2" />
+        <item itemvalue="애플리케이션.RegularEx1" />
+        <item itemvalue="애플리케이션.ObjectsTest" />
+        <item itemvalue="애플리케이션.StringBufferEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +207,10 @@
       <workItem from="1707797634284" duration="6252000" />
       <workItem from="1707806887726" duration="4184000" />
       <workItem from="1707895750634" duration="3463000" />
-      <workItem from="1707977027915" duration="7858000" />
+      <workItem from="1707977027915" duration="9367000" />
+      <workItem from="1708066992884" duration="568000" />
+      <workItem from="1708067701584" duration="1392000" />
+      <workItem from="1708089572902" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -313,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708058691985</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="java.lang 패키지의 equals">
+      <option name="closed" value="true" />
+      <created>1708059216375</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708059216375</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +361,8 @@
     <MESSAGE value="클래스 구성과 super 키워드" />
     <MESSAGE value="getMessage()와 printStackTrace() 차이" />
     <MESSAGE value="Exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
+    <MESSAGE value="java.lang 패키지의 equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="java.lang 패키지의 equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
