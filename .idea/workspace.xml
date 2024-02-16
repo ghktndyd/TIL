@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="CallByXXX">
-      <change afterPath="$PROJECT_DIR$/src/javaexam/DeckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaexam/SuperTest.java" afterDir="false" />
+    <list default="true" id="5be8fab3-c792-4e45-9d8b-da2551a573ce" name="변경" comment="클래스 구성과 super 키워드">
+      <change afterPath="$PROJECT_DIR$/src/javaexam/ExceptionEx9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +81,7 @@
     "애플리케이션.CallByReference.executor": "Run",
     "애플리케이션.CallByValue.executor": "Run",
     "애플리케이션.DeckTest.executor": "Run",
+    "애플리케이션.ExceptionEx9.executor": "Run",
     "애플리케이션.MouseDriver.executor": "Run",
     "애플리케이션.MultiArrEx1.executor": "Debug",
     "애플리케이션.P11659.executor": "Run",
@@ -95,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SuperTest">
+  <component name="RunManager" selected="애플리케이션.ExceptionEx9">
     <configuration name="CallByReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="just.CallByReference" />
       <module name="everything" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="just.CallByValue" />
+    <configuration name="DeckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.DeckTest" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="just.*" />
+          <option name="PATTERN" value="javaexam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexam.DeckTest" />
+    <configuration name="ExceptionEx9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexam.ExceptionEx9" />
       <module name="everything" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ExceptionEx9" />
         <item itemvalue="애플리케이션.SuperTest" />
         <item itemvalue="애플리케이션.DeckTest" />
         <item itemvalue="애플리케이션.MultiArrEx1" />
         <item itemvalue="애플리케이션.CallByReference" />
-        <item itemvalue="애플리케이션.CallByValue" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,7 @@
       <workItem from="1707797634284" duration="6252000" />
       <workItem from="1707806887726" duration="4184000" />
       <workItem from="1707895750634" duration="3463000" />
-      <workItem from="1707977027915" duration="5208000" />
+      <workItem from="1707977027915" duration="6134000" />
     </task>
     <task id="LOCAL-00001" summary="두번째">
       <option name="closed" value="true" />
@@ -290,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708002185789</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="클래스 구성과 super 키워드">
+      <option name="closed" value="true" />
+      <created>1708056204756</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708056204756</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +316,7 @@
     <MESSAGE value="랜덤 수" />
     <MESSAGE value="Mickey" />
     <MESSAGE value="CallByXXX" />
-    <option name="LAST_COMMIT_MESSAGE" value="CallByXXX" />
+    <MESSAGE value="클래스 구성과 super 키워드" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스 구성과 super 키워드" />
   </component>
 </project>
