@@ -1,4 +1,4 @@
-package javaexam.designpattern;
+package javaexam.designpattern.adapter;
 
 public interface Adapter {
     public Float twiceOf(Float f);

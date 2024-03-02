@@ -1,4 +1,4 @@
-package javaexam.designpattern;
+package javaexam.designpattern.adapter;
 
 public class main {
     public static void main(String[] args) {
