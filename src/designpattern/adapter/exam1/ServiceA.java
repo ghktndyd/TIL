@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.exam1;
 
 public class ServiceA {
     void runServiceA() {
