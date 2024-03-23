@@ -17,11 +17,3 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
-
-subprojects {
-
-}
-
-allprojects {
-
-}
