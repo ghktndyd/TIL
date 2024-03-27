@@ -16,7 +16,7 @@ public class PersonalDataSort {
             person[i] = new Person(name, height, weight);
         }
 
-        Arrays.sort(person, (a, b) -> a.name.compareTo(b.name));
+        Arrays.sort(person, Comparator.comparing(a -> a.name));
 
         Person.print("name", person);
         System.out.println();
