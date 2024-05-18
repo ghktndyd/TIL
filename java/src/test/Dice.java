@@ -2,8 +2,8 @@ package test;
 
 public class Dice {
 
-    private DiceRollResults results;
-    private int maxDiceNumber;
+    private final DiceRollResults results;
+    private final int maxDiceNumber;
 
     public Dice(int maxDiceNumber) {
         this.results = new DiceRollResults(maxDiceNumber);
