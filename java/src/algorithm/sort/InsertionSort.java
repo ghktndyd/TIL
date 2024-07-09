@@ -23,7 +23,6 @@ public class InsertionSort {
             // 현재 위치에서 왼쪽으로 한 칸씩 이동할 인덱스 변수
             int previousIndex = currentIndex - 1;
 
-
             // previousIndex가 0 이상이고
             // array[previousIndex]가 currentElement보다 큰 동안 반복
             while (previousIndex >= 0 && arr[previousIndex] > currentElement) {
