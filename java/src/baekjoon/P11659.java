@@ -1,34 +1,27 @@
 package baekjoon;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class P11659 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int N = sc.nextInt();
+        int M = sc.nextInt();
 
-        int suNo = Integer.parseInt(stringTokenizer.nextToken());
-        int quizNo = Integer.parseInt(stringTokenizer.nextToken());
+        int[] arr = new int[N + 1];
+        int[] sumArr = new int[N + 1];
 
-        long[] S = new long[suNo + 1];
-
-        stringTokenizer = new StringTokenizer(bufferedReader.readLine());
-
-        for (int i = 1; i <= suNo; i++) {
-            S[i] = S[i - 1] + Integer.parseInt(stringTokenizer.nextToken());
+        for (int i = 1; i <= N; i++) {
+            arr[i] = sc.nextInt();
+            sumArr[i] = sumArr[i - 1] + arr[i];
         }
 
-        for (int q = 0; q < quizNo; q++) {
-            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        for (int i = 0; i < M; i++) {
+            int start = sc.nextInt();
+            int end = sc.nextInt();
 
-            int i = Integer.parseInt(stringTokenizer.nextToken());
-            int j = Integer.parseInt(stringTokenizer.nextToken());
-
-            System.out.println(S[j] - S[i - 1]);
+            System.out.println(sumArr[end] - sumArr[start - 1]);
         }
     }
 }
