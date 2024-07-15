@@ -39,22 +39,15 @@ public class 계속_중첩되는_사각형 {
         }
 
         int blueArea = 0;
-        int redArea = 0;
 
         for (int x = 0; x <= MAX_R; x++) {
             for (int y = 0; y <= MAX_R; y++) {
                 if (checked[x][y] == 2) {
                     blueArea++;
-                } else if (checked[x][y] == 1) {
-                    redArea++;
                 }
             }
         }
 
-        if (N % 2 == 0) {
-            System.out.println(blueArea);
-        } else {
-            System.out.println(redArea);
-        }
+        System.out.println(blueArea);
     }
 }
