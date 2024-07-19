@@ -32,7 +32,7 @@ public class 선두를_지켜라 {
             int t = sc.nextInt();
 
             while (t-- > 0) {
-                posB[timeB] = posA[timeB - 1] + v;
+                posB[timeB] = posB[timeB - 1] + v;
                 timeB++;
             }
         }
