@@ -20,7 +20,7 @@ public class 거리두기확인하기 {
             int nx = x + dx[d];
             int ny = y + dy[d];
 
-            if (isRange(nx, ny, room.length)) {
+            if (ny < 0 || ny >= room.length || nx < 0 || nx >= room[ny].length) {
                 continue;
             }
 
@@ -37,7 +37,7 @@ public class 거리두기확인하기 {
             int nx = x + dx[d];
             int ny = y + dy[d];
 
-            if (isRange(nx, ny, room.length)) {
+            if (ny < 0 || ny >= room.length || nx < 0 || nx >= room[ny].length) {
                 continue;
             }
 
@@ -60,6 +60,7 @@ public class 거리두기확인하기 {
                 if (room[y][x] != 'P') {
                     continue;
                 }
+
                 if (!isDistanced(room, x, y)) {
                     return false;
                 }
@@ -68,12 +69,7 @@ public class 거리두기확인하기 {
         return true;
     }
 
-    private boolean isRange(int nx, int ny, int length) {
-        return nx < 0 || nx >= length || ny < 0 || ny >= length;
-    }
-
     public int[] solution(String[][] places) {
-
         int[] answer = new int[places.length];
 
         for (int i = 0; i < answer.length; i++) {
