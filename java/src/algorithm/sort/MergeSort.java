@@ -4,14 +4,15 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] sampleArray = {12, 11, 13, 5, 6};
 
-        mergeSort(sampleArray, 0, sampleArray.length - 1);
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergeSort(sampleArray, 0, sampleArray.length - 1);
 
         for (int element : sampleArray) {
             System.out.println(element);
         }
     }
 
-    public static void mergeSort(int[] arr, int left, int right) {
+    public void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
 
@@ -22,7 +23,7 @@ public class MergeSort {
         }
     }
 
-    public static void merge(int[] arr, int left, int mid, int right) {
+    public void merge(int[] arr, int left, int mid, int right) {
         int[] temp = new int[arr.length]; // 임시 배열 생성
         int i = left; // 왼쪽 배열의 시작 인덱스
         int j = mid + 1; // 오른쪽 배열의 시작 인덱스
