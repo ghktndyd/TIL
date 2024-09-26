@@ -43,7 +43,6 @@ function strongAttackHandler() {
 
 function healPlayerHandler() {
   increasePlayerHealth(HEAL_VALUE);
-  
 }
 
 attackBtn.addEventListener('click', attackHandler);
