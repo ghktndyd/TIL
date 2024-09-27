@@ -3,24 +3,45 @@ package codetree;
 import java.util.Scanner;
 
 public class 되돌아오기 {
-    public static final int DIR_NUM = 4;
 
-    public static int n, x, y;
+    public static final int[] DX = {1, 0, -1, 0};
+    public static final int[] DY = {0, -1, 0, 1};
 
-    public static int[] dx = new int[]{1, -1, 0, 0};
-    public static int[] dy = new int[]{0, 0, -1, 1};
+    public static int answer = -1;
+    public static int X;
+    public static int Y;
+    public static int useSecond;
 
-    public static int ans = -1;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    public static int elapsedTime;
+        int N = scanner.nextInt();
 
-    public static boolean move(int dir, int dist) {
-        while (dist-- > 0) {
-            x += dx[dir];
-            y += dy[dir];
-            elapsedTime++;
-            if (x == 0 && y == 0) {
-                ans = elapsedTime;
+        for (int i = 0; i < N; i++) {
+            char direction = scanner.next().charAt(0);
+            int distance = scanner.nextInt();
+
+            boolean current = move(direction, distance);
+
+            if (current) {
+                break;
+            }
+        }
+
+        System.out.println(answer);
+    }
+
+    private static boolean move(char direction, int distance) {
+        int dir = getDir(direction);
+
+        while (0 < distance--) {
+            X += DX[dir];
+            Y += DY[dir];
+
+            useSecond++;
+
+            if (X == 0 && Y == 0) {
+                answer = useSecond;
                 return true;
             }
         }
@@ -28,30 +49,20 @@ public class 되돌아오기 {
         return false;
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-
-        while (n-- > 0) {
-            char cDir = sc.next().charAt(0);
-            int dist = sc.nextInt();
-
-            int dir;
-            if (cDir == 'E')
-                dir = 0;
-            else if (cDir == 'W')
-                dir = 1;
-            else if (cDir == 'S')
-                dir = 2;
-            else
-                dir = 3;
-
-            boolean done = move(dir, dist);
-
-            if (done)
-                break;
+    private static int getDir(char direction) {
+        if (direction == 'E') {
+            return 0;
+        }
+        if (direction == 'S') {
+            return 1;
+        }
+        if (direction == 'W') {
+            return 2;
+        }
+        if (direction == 'N') {
+            return 3;
         }
 
-        System.out.print(ans);
+        throw new IllegalArgumentException();
     }
 }
