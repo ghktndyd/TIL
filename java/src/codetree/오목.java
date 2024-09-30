@@ -42,8 +42,6 @@ public class 오목 {
     }
 
     private static boolean checkWin(int[][] checkerBoard, int x, int y, int user, int direction) {
-        int count = 1; // 현위치
-
         for (int i = 1; i < 5; i++) {
             int nx = x + DX[direction] * i;
             int ny = y + DY[direction] * i;
@@ -52,7 +50,6 @@ public class 오목 {
                 return false;
             }
 
-            count++;
         }
 
         return true;
