@@ -3,41 +3,30 @@ package codetree;
 import java.util.Scanner;
 
 public class 이상한_진수_2 {
-    public static String N;
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        N = sc.next();
+        Scanner scanner = new Scanner(System.in);
 
-        if (containsNumberZero(N)) {
-            char[] charArray = N.toCharArray();
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < charArray.length; i++) {
-                if (charArray[i] == '0') {
-                    charArray[i] = '1';
+        String N = scanner.next();
+        char[] binaryNumbers = N.toCharArray();
+
+        // 0이 포함되어 있는 경우
+        if (N.contains("0")) {
+            // 첫 번째 '0'을 '1'로 변경
+            for (int i = 0; i < binaryNumbers.length; i++) {
+                if (binaryNumbers[i] == '0') {
+                    binaryNumbers[i] = '1';
                     break;
                 }
             }
-
-            for (char c : charArray) {
-                sb.append(c);
-            }
-
-            System.out.println(Integer.parseInt(sb.toString(), 2));
         } else {
-            char[] charArray = N.toCharArray();
-            charArray[N.length() - 1] = '0';
-
-            StringBuilder sb = new StringBuilder();
-            for (char c : charArray) {
-                sb.append(c);
-            }
-
-            System.out.println(Integer.parseInt(sb.toString(), 2));
+            // 0이 없으면 마지막 문자를 '0'으로 변경
+            binaryNumbers[binaryNumbers.length - 1] = '0';
         }
+
+        System.out.println(convertBinaryToDecimal(binaryNumbers));
     }
 
-    private static boolean containsNumberZero(String string) {
-        return string.contains("0");
+    private static int convertBinaryToDecimal(char[] binaryNumbers) {
+        return Integer.parseInt(new String(binaryNumbers), 2);
     }
 }
