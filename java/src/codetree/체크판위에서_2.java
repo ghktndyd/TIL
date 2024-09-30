@@ -2,19 +2,19 @@ package codetree;
 
 import java.util.Scanner;
 
-public class 체크판_위에서_2 {
-    public static final int MAX_N = 15;
-    public static int R, C;
-    public static char[][] checkBoard = new char[MAX_N][MAX_N];
+public class 체크판위에서_2 {
+
+    public static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        R = sc.nextInt();
-        C = sc.nextInt();
+        int R = SCANNER.nextInt();
+        int C = SCANNER.nextInt();
+
+        char[][] checkBoard = new char[R][C];
 
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                checkBoard[i][j] = sc.next().charAt(0);
+                checkBoard[i][j] = SCANNER.next().charAt(0);
             }
         }
 
