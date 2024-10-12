@@ -4,49 +4,41 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class 아름다운_수열_2 {
-    public static int N, M; // 수열 A와 B의 길이
+    public static final int MAX_N = 100;
+
+    public static int n, m;
+    public static int[] arr1 = new int[MAX_N];
+    public static int[] arr2 = new int[MAX_N];
+    public static int[] tmp = new int[MAX_N];
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        m = sc.nextInt();
+        for (int i = 0; i < n; i++)
+            arr1[i] = sc.nextInt();
+        for (int i = 0; i < m; i++)
+            arr2[i] = sc.nextInt();
 
-        N = sc.nextInt();
-        int[] A = new int[N];
+        Arrays.sort(arr2, 0, m);
 
-        M = sc.nextInt();
-        int[] B = new int[M];
-        int[] temp = new int[M];
+        int cnt = 0;
+        for (int i = 0; i <= n - m; i++) {
+            for (int j = 0; j < m; j++)
+                tmp[j] = arr1[i + j];
+            Arrays.sort(tmp, 0, m);
 
-        for (int i = 0; i < N; i++) {
-            A[i] = sc.nextInt();
-        }
-
-        for (int i = 0; i < M; i++) {
-            B[i] = sc.nextInt();
-        }
-
-        Arrays.sort(B);
-
-        int count = 0;
-        for (int i = 0; i <= N - M; i++) {
-            for (int j = 0; j < M; j++) {
-                temp[j] = A[i + j];
-            }
-
-            Arrays.sort(temp, 0, M);
-
-            boolean isSame = true;
-            for (int j = 0; j < M; j++) {
-                if (temp[j] != B[j]) {
-                    isSame = false;
+            boolean issame = true;
+            for (int j = 0; j < m; j++)
+                if (tmp[j] != arr2[j]) {
+                    issame = false;
                     break;
                 }
-            }
 
-            if (isSame) {
-                count++;
-            }
+            if (issame)
+                cnt++;
         }
 
-        System.out.println(count);
+        System.out.print(cnt);
     }
 }
