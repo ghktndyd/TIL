@@ -3,8 +3,6 @@ package codetree;
 import java.util.Scanner;
 
 public class 삼각형_만들기 {
-
-    public static final int INT_MAX = Integer.MAX_VALUE;
     public static final int MAX_N = 100;
 
     public static int n;
