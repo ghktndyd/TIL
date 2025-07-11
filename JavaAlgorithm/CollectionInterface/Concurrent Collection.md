@@ -3,6 +3,7 @@
 - Concurrent는 컴퓨터과학 용어로는 "동시성"을 의미한다.
 - 병렬을 의미하는 "Parallel" 이라는 용어하고는 다르다.
 - Concurrent는 시간을 나눠가며 동시에 실행되는 것처럼 보이는 것이고, Parallel은 실제로 동시에 실행되는 것이 차이다.
+- 자바에서는 기본 컬렉션들이 멀티스레드 환경에서 스레드 세이프하지 않아서 여러 스레드가 공유 자원에 동시 접근하면 예상 못한 에러가 발생할 수 있다.
 
 ---
 
@@ -62,12 +63,14 @@
 
 - 1명이 들어가면 다음 사람은 앞 사람이 예매를 다 하고 나올 때까지 기다려야함
 - 매우 안전하지만 느림
+- 자바에서는 `synchronized`, `ReetrantLock`
 
 ## Lock-Free: 마지막 티켓 1장을 보고 여러 사람이 예매 버튼 누른 상황
 
 - 여러명이 동시에 눌러도 서버의 판단 하에 무조건 0.000001초라도 빨리 누른 사람에게 티켓을 줌
 - 다음 사람은 실패 응답을 받고, 다시 시도
 - 누구든 바로 시도 가능하고, 락이 없다 보니까 빠름
+- 자바에서는 `ConcurrentLinkedQueue`, `Atomic 클래스들`
 
 ## Lock-Splitting: 구역별 티켓 예매하는 상황
 
@@ -75,3 +78,19 @@
 - 단일 락의 경우는 A구역을 예매 중일 때 B구역도 예매가 안 되게 막는 것
 - 분할 락의 경우는 누가 A구역을 예매 중이더라도 B, C 등 다른 구역은 예매가 되도록 하는 것
 - 락을 작은 단위로 분할했다 보니까 동시에 접근할 수 있는 사람을 최대화할 수 있음
+- 자바에서는 `ConcurrentHashMap`
+
+--- 
+
+# 4. Concurrent Collection의 종류
+
+| 분류            | 클래스/인터페이스                                                                                                                     |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Map           | `ConcurrentHashMap`, `ConcurrentSkipListMap`                                                                                  |
+| List          | `CopyOnWriteArrayList`                                                                                                        |
+| Set           | `ConcurrentSkipListSet`, `CopyOnWriteArraySet`                                                                                |
+| Queue/Deque   | `ConcurrentLinkedQueue`, `ConcurrentLinkedDeque`                                                                              |
+| BlockingQueue | `ArrayBlockingQueue`, `LinkedBlockingQueue`, `PriorityBlockingQueue`, `DelayQueue`, `SynchronousQueue`, `LinkedTransferQueue` |
+| 기타            | `BlockingDeque`, `BlockingQueue`, `ConcurrentNavigableMap` 등                                                                  |
+
+
