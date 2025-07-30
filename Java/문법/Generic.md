@@ -14,12 +14,8 @@
 
 ```java
 List list = new ArrayList();
-list.
-
-add("hello");
-list.
-
-add(123);  // 문제 없음
+list.add("hello");
+list.add(123);  // 문제 없음
 
 String s = (String) list.get(0); // OK
 String t = (String) list.get(1); // 런타임 에러: ClassCastException
@@ -33,12 +29,8 @@ String t = (String) list.get(1); // 런타임 에러: ClassCastException
 
 ```java
 List<String> list = new ArrayList<>();
-list.
-
-add("hello");
-list.
-
-add(123);  // 컴파일 에러 발생
+list.add("hello");
+list.add(123);  // 컴파일 에러 발생
 
 String s = list.get(0);  // 안전하게 사용 가능
 ```
